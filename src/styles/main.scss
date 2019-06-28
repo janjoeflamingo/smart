@@ -1,0 +1,11 @@
+@import 'settings/variables';
+@import 'general/*';
+@import 'components/*';
+
+main {
+  height: 100vh;
+  background-image: url(../img/logo.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: auto 60%;
+}

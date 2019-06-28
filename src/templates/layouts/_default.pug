@@ -1,0 +1,18 @@
+include ../../../node_modules/bempug/index
+include ../utils/mixins
+
++b('feedback', bem)&attributes(attributes)
++e('title', {t: 'h2'}) Остались вопросы?
+
+block variables
+
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    script(type='text/javascript').
+      if (foo) {
+        bar(1 + 5)
+      }
+  body
+    block content
